@@ -38,11 +38,24 @@ Desktop is the friendly app that does this for you.
 
 **If your instructor shared a GitHub link** (most common):
 
-1. In GitHub Desktop, go to **File → Clone Repository**.
-2. Find or paste the repository's URL.
-3. Choose where to save it on your computer, then click **Clone**.
+First, make your *own* copy of the project on GitHub. This matters: you can only push
+changes to a repo you own, so you'll work from your copy — not your instructor's.
 
-You now have your own copy of the project. 🎉
+1. Open your instructor's repository link in a web browser.
+2. Near the top-right, click the green **Use this template → Create a new repository**
+   button.
+3. Give it a name (e.g. `arti-409-ai-chatbot`), keep it **Public** or **Private** as you
+   like, then click **Create repository**. GitHub now has a copy under *your* account. 🎉
+
+Now bring that copy down to your computer:
+
+4. On *your* new repo's page, click the green **Code** button and copy the URL.
+5. In GitHub Desktop, go to **File → Clone Repository**, paste the URL, choose where to
+   save it, and click **Clone**.
+
+> **Why "Use this template" and not just Clone?** Cloning your instructor's repo directly
+> would let you download it, but GitHub would block you from pushing back to it. Working
+> from your own copy means every **Push** later in this guide just works.
 
 **If you instead have this project as a plain folder on your computer:**
 
