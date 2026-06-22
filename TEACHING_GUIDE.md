@@ -16,8 +16,10 @@ Desktop is the friendly app that does this for you.
 | **Repository** ("repo") | A project folder that Git is tracking. |
 | **Commit** | A saved snapshot of your changes, with a short message describing them. |
 | **Push** | Upload your commits to GitHub. |
+| **Fetch** | Check GitHub for new commits *without* downloading them yet — just a "what's new?" peek. |
 | **Pull** | Download commits other people pushed. |
 | **Clone** | Make a copy of a GitHub repo on your computer. |
+| **origin** | The default nickname for the copy of your repo on GitHub. So "Push origin" just means "push to GitHub." |
 | **Branch** | A parallel version of the project where you can work without affecting `main`. |
 | **Pull Request** ("PR") | A request to merge your branch's changes into `main`, usually after review. |
 
@@ -67,6 +69,9 @@ Take 30 seconds to find these parts of GitHub Desktop:
 
 1. Open the project folder and edit **README.md** in any text editor. Find the
    **"✏️ Your turn"** section and add your name under it. Save the file.
+   - Not sure where the folder is? In GitHub Desktop, use **Repository → Show in
+     Finder** (Mac) / **Show in Explorer** (Windows) to open it, or **Repository →
+     Open in External Editor** to jump straight into your code editor.
 2. Switch back to GitHub Desktop. Your edit appears in the **Changes** tab, with the
    exact lines you added highlighted in green.
 3. At the bottom-left, type a short **Summary** message, like:
